@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/imges/school.png" type="image/x-icon">
 </head>
 
 <body>
@@ -21,6 +22,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./assets/imges/LOGO.png" alt="" class="img-fluid logo">
+
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,13 +31,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Our Faculties</a>
@@ -44,7 +46,7 @@
                             <a class="nav-link" href="#">Our Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
 
                     </ul>
@@ -53,10 +55,10 @@
         </nav>
     </header>
     <!-- Hero Section -->
-    <section class="hero-section d-flex align-items-center">
+    <section class="hero-section d-flex align-items-center" id="home">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right">
                     <div class="text-white  text-dark mb-3 hero-tittle ">Learn Today - Lead Tomorrow</div>
                     <h1 class="display-4 fw-bold">Best Learning Future Starts From Here</h1>
                     <p class="lead">Education is a key to success and freedom from all the forces. Learn today for a
@@ -69,21 +71,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="zoom-in-up">
                     <img src="./assets/imges/banner-img.png" alt="" class="banner-img img-fluid">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="about-section py-5">
+    <section class="about-section py-5" id="about">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-center"
+                    data-aos="fade-up-right">
 
                     <img src="./assets/imges/about-as.jpg" alt="" class="img-fluid  mb-3">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up-left">
                     <div class="content">
                         <div class="badge bg-primary text-light mb-3">About Us</div>
                         <h2 class="mb-4">Oriented Learning <span class="text-warning">Environment</span></h2>
@@ -126,11 +129,11 @@
     </section>
 
     <!-- Benefits Section -->
-    <section class="benefits py-5">
+    <section class="benefits py-5" id="services">
         <div class="container">
             <h2 class="text-center">Benefits of online tutoring services with us</h2>
             <div class="row text-center mt-5 g-2 g-lg-3">
-                <div class="col-md-3">
+                <div class=" col-lg-3 col-md-4 col-sm-6">
                     <div class="card">
                         <div class="badge">Development</div>
                         <div class="bg-white card-content">
@@ -145,6 +148,44 @@
                                 </div>
                             </div>
                             <h6 class="mt-2">Frontend Web Development</h6>
+
+                            <div class="course-des">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                                <i class="ri-star-line"></i>
+                                <i class="ri-star-line"></i>
+                                <span>(95) review</span>
+                            </div>
+                            <hr>
+                            <div class="course-price-box d-flex gap-3">
+                                <div class="price-container">
+                                    <span class="original-price">$45.00</span>
+                                    <span class="discounted-price">$25.00</span>
+                                </div>
+
+
+                                <button type="button" class="btn btn-warning">Enroll Now</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class=" col-lg-3 col-md-4 col-sm-6">
+                    <div class="card card2">
+                        <div class="badge">Be.Tech</div>
+                        <div class="bg-white card-content">
+                            <div class="d-flex items-center justify-center gap-3 ">
+                                <div>
+                                    <i class="ri-user-line"></i> <span>15 Students</span>
+
+                                </div>
+                                <div>
+                                    <i class="ri-article-line"></i> <span>12 lessons</span>
+
+                                </div>
+                            </div>
+                            <h6 class="mt-2 text-left">Bachelor of Technology</h6>
 
                             <div class="course-des">
                                 <i class="ri-star-line"></i>
@@ -169,9 +210,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-3">
-                    <div class="card">
-                        <div class="badge">Development</div>
+                <div class=" col-lg-3 col-md-4 col-sm-6">
+                    <div class="card card3">
+                        <div class="badge">Ai</div>
                         <div class="bg-white card-content">
                             <div class="d-flex items-center justify-center gap-3 ">
                                 <div>
@@ -183,7 +224,7 @@
 
                                 </div>
                             </div>
-                            <h6 class="mt-2">Frontend Web Development</h6>
+                            <h6 class="mt-2">Artificial Intelligence</h6>
 
                             <div class="course-des">
                                 <i class="ri-star-line"></i>
@@ -208,9 +249,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-3">
-                    <div class="card">
-                        <div class="badge">Development</div>
+                <div class=" col-lg-3 col-md-4 col-sm-6">
+                    <div class="card card4">
+                        <div class="badge">Computer Science</div>
                         <div class="bg-white card-content">
                             <div class="d-flex items-center justify-center gap-3 ">
                                 <div>
@@ -222,7 +263,7 @@
 
                                 </div>
                             </div>
-                            <h6 class="mt-2">Frontend Web Development</h6>
+                            <h6 class="mt-2">Computer Science</h6>
 
                             <div class="course-des">
                                 <i class="ri-star-line"></i>
@@ -247,7 +288,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class=" col-lg-3 col-md-4 col-sm-6">
                     <div class="card">
                         <div class="badge">Development</div>
                         <div class="bg-white card-content">
@@ -261,7 +302,7 @@
 
                                 </div>
                             </div>
-                            <h6 class="mt-2">Frontend Web Development</h6>
+                            <h6 class="mt-2">Backend Web Development</h6>
 
                             <div class="course-des">
                                 <i class="ri-star-line"></i>
@@ -286,9 +327,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="card">
-                        <div class="badge">Development</div>
+                        <div class="badge">B.com</div>
                         <div class="bg-white card-content">
                             <div class="d-flex items-center justify-center gap-3 ">
                                 <div>
@@ -300,7 +341,7 @@
 
                                 </div>
                             </div>
-                            <h6 class="mt-2">Frontend Web Development</h6>
+                            <h6 class="mt-2">Bachelor of Commerce</h6>
 
                             <div class="course-des">
                                 <i class="ri-star-line"></i>
@@ -325,9 +366,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="card">
-                        <div class="badge">Development</div>
+                        <div class="badge">machine learningt</div>
                         <div class="bg-white card-content">
                             <div class="d-flex items-center justify-center gap-3 ">
                                 <div>
@@ -339,7 +380,7 @@
 
                                 </div>
                             </div>
-                            <h6 class="mt-2">Frontend Web Development</h6>
+                            <h6 class="mt-2">machine learning</h6>
 
                             <div class="course-des">
                                 <i class="ri-star-line"></i>
@@ -364,9 +405,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="card">
-                        <div class="badge">Development</div>
+                        <div class="badge">Dsa</div>
                         <div class="bg-white card-content">
                             <div class="d-flex items-center justify-center gap-3 ">
                                 <div>
@@ -378,46 +419,7 @@
 
                                 </div>
                             </div>
-                            <h6 class="mt-2">Frontend Web Development</h6>
-
-                            <div class="course-des">
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <span>(95) review</span>
-                            </div>
-                            <hr>
-                            <div class="course-price-box d-flex gap-3">
-                                <div class="price-container">
-                                    <span class="original-price">$45.00</span>
-                                    <span class="discounted-price">$25.00</span>
-                                </div>
-
-
-                                <button type="button" class="btn btn-warning">Enroll Now</button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card">
-                        <div class="badge">Development</div>
-                        <div class="bg-white card-content">
-                            <div class="d-flex items-center justify-center gap-3 ">
-                                <div>
-                                    <i class="ri-user-line"></i> <span>15 Students</span>
-
-                                </div>
-                                <div>
-                                    <i class="ri-article-line"></i> <span>12 lessons</span>
-
-                                </div>
-                            </div>
-                            <h6 class="mt-2">Frontend Web Development</h6>
+                            <h6 class="mt-2">Data Structures and Algorithms</h6>
 
                             <div class="course-des">
                                 <i class="ri-star-line"></i>
@@ -476,7 +478,7 @@
                 </div>
                 <div class="p-3">
                     <div class="stu-silder">
-                        <img src="./assets/imges/stu1.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
+                        <img src="./assets/imges/stu2.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
                         <h5>Student Name</h5>
                         <p>Occupation</p>
                         <blockquote class="blockquote">
@@ -486,7 +488,7 @@
                 </div>
                 <div class="p-3">
                     <div class="stu-silder">
-                        <img src="./assets/imges/stu1.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
+                        <img src="./assets/imges/stu3.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
                         <h5>Student Name</h5>
                         <p>Occupation</p>
                         <blockquote class="blockquote">
@@ -496,7 +498,7 @@
                 </div>
                 <div class="p-3">
                     <div class="stu-silder">
-                        <img src="./assets/imges/stu1.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
+                        <img src="./assets/imges/stu4.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
                         <h5>Student Name</h5>
                         <p>Occupation</p>
                         <blockquote class="blockquote">
@@ -506,7 +508,7 @@
                 </div>
                 <div class="p-3">
                     <div class="stu-silder">
-                        <img src="./assets/imges/stu1.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
+                        <img src="./assets/imges/stu5.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
                         <h5>Student Name</h5>
                         <p>Occupation</p>
                         <blockquote class="blockquote">
@@ -569,7 +571,7 @@
 
                     <button type="button" class="btn btn-outline-warning">Get started</button>
                 </div>
-                <div class="conact-page col-md-6">
+                <div class="conact-page col-md-6" data-aos="zoom-in">
                     <form>
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
@@ -606,20 +608,39 @@
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#" class="text-white"> Find course </a></li>
-                        <li><a href="#" class="text-white"> Find course </a></li>
-                        <li><a href="#" class="text-white"> Find course </a></li>
-                        <li><a href="#" class="text-white"> Find course </a></li>
+                        <li><a href="#" class="text-white"> Cyber Security </a></li>
+                        <li><a href="#" class="text-white"> Data Structures and Algorithms</a></li>
+                        <li><a href="#" class="text-white"> machine learning</a></li>
+                        <li><a href="#" class="text-white">Python Devloper</a></li>
+                        <li><a href="#" class="text-white">Java Devloper</a></li>
+                        <li><a href="#" class="text-white"> machine learning</a></li>
+
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <h5>Contact Us</h5>
-                    <p>Address: Parambua, Dhaniakhali, Hooghly, West Bengal, Pin-712402</p>
-                    <p>Email: info@pjhs.com</p>
+                    <p>Address: Gangarmpur , Dakshin Dinajpur , <br> Pin-733124</p>
+                    <p>Email: info@jrc.com</p>
                     <p>Phone: +91 xxxx xxxxx</p>
+
+                    <div class="social-icons d-flex items-center gap-4">
+                        <div class="icon">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="ri-linkedin-box-line"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="ri-twitter-x-line"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="ri-instagram-fill"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="text-center mt-3">
-                <p>&copy; 2023, PJHS. All Rights Reserved</p>
+                <p>&copy; 2023, JR COLLEGE. All Rights Reserved</p>
             </div>
         </div>
     </footer>

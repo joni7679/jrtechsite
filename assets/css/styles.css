@@ -6,6 +6,16 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+
 a {
     text-decoration: none !important;
 }
@@ -113,6 +123,25 @@ a {
     background-position: center;
     height: 300px !important;
     position: relative;
+    text-align: left;
+}
+
+.card2 {
+    background: url('../imges/betech.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card3 {
+    background: url('../imges/ai-img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card4 {
+    background: url('../imges/computer-science.avif');
+    background-size: cover;
+    background-position: center;
 }
 
 .card .badge {
