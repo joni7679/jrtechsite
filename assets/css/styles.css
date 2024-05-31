@@ -9,7 +9,9 @@
 a {
     text-decoration: none !important;
 }
-
+.logo{
+    width: 50px;
+}
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -90,20 +92,19 @@ a {
 
 
 .card {
-    color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 300px;
     position: relative;
     background: url('../imges/web.jpg');
     background-size: cover;
     background-position: center;
     height: 300px !important;
+    position: relative;
 }
+
 .card .badge {
     background-color: #ff7f50;
-    color: #fff;
     padding: 4px 12px;
     position: absolute;
     top: 16px;
@@ -113,27 +114,23 @@ a {
 }
 
 .card-content {
-    padding: 16px;
-    color: #fff;
-
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
-.image-section img {
-    width: 100%;
-    height: auto;
+
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
 }
 
-.text-section {
-    padding-top: 16px;
-    color: #fff;
-}
-
-.details {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    color: #ffffff;
-    margin-bottom: 8px;
+.discounted-price {
+    font-weight: bold;
+    color: #000;
 }
 
 h2 {
