@@ -9,9 +9,11 @@
 a {
     text-decoration: none !important;
 }
-.logo{
+
+.logo {
     width: 50px;
 }
+
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -39,7 +41,17 @@ a {
 }
 
 
+.banner-img {
+    width: 400px;
+}
 
+.hero-tittle {
+    background-color: #ff7f50;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    width: 200px;
+}
 
 .about-section .content {
     max-width: 500px;
