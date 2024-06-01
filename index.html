@@ -15,635 +15,806 @@
 </head>
 
 <body>
+    <div class="main">
+        <!-- Navbar -->
+        <header class="navbar-light shadow-sm p-3 mb-5 bg-body rounded">
+            <nav class="container   navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/imges/LOGO.png" alt="" class="img-fluid logo">
 
-    <!-- Navbar -->
-    <header class="navbar-light shadow-sm p-3 mb-5 bg-body rounded">
-        <nav class="container   navbar navbar-expand-lg ">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="./assets/imges/LOGO.png" alt="" class="img-fluid logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Our Faculties</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Our Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
 
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Our Faculties</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Our Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- Hero Section -->
-    <section class="hero-section d-flex align-items-center" id="home">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6" data-aos="fade-right">
-                    <div class="text-white  text-dark mb-3 hero-tittle ">Learn Today - Lead Tomorrow</div>
-                    <h1 class="display-4 fw-bold">Best Learning Future Starts From Here</h1>
-                    <p class="lead">Education is a key to success and freedom from all the forces. Learn today for a
-                        better tomorrow.</p>
-                    <div class="d-flex">
-                        <a href="#" class="btn btn-primary me-3">Browse Our Courses</a>
-                        <div>
-                            <span class="d-block">Call Us Anytime</span>
-                            <a href="tel:+9108279003455" class="text-decoration-none">(+91) 82790 03455</a>
-                        </div>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="zoom-in-up">
-                    <img src="./assets/imges/banner-img.png" alt="" class="banner-img img-fluid">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="about-section py-5" id="about">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 d-flex flex-column justify-content-center align-items-center"
-                    data-aos="fade-up-right">
-
-                    <img src="./assets/imges/about-as.jpg" alt="" class="img-fluid  mb-3">
-                </div>
-                <div class="col-md-6" data-aos="fade-up-left">
-                    <div class="content">
-                        <div class="badge bg-primary text-light mb-3">About Us</div>
-                        <h2 class="mb-4">Oriented Learning <span class="text-warning">Environment</span></h2>
-                        <p class="mb-4">Education has come a long way from its traditional roots, and it will continue
-                            to evolve.</p>
-                        <p>Since 2007 we have been a visionary and a reliable software engineering partner for
-                            world-class brands. We are a boutique digital transformation consultancy and software
-                            development company that provides cutting edge engineering solutions.</p>
-                        <div class="mt-4">
-                            <a href="#" class="btn btn-primary me-3">Learn More</a>
-                            <a href="#" class="btn btn-outline-secondary">How It Works</a>
+            </nav>
+        </header>
+        <!-- Hero Section -->
+        <section class="hero-section d-flex align-items-center" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" data-aos="fade-right">
+                        <div class="text-white  text-dark mb-3 hero-tittle ">Learn Today - Lead Tomorrow</div>
+                        <h1 class="display-4 fw-bold">Best Learning Future Starts From Here</h1>
+                        <p class="lead">Education is a key to success and freedom from all the forces. Learn today for a
+                            better tomorrow.</p>
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary me-3" id="services">Browse Our Courses</a>
+                            <div>
+                                <span class="d-block">Call Us Anytime</span>
+                                <a href="tel:+9108279003455" class="text-decoration-none">(+91) 82790 03455</a>
+                            </div>
                         </div>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="zoom-in-up">
+                        <img src="./assets/imges/banner-img.png" alt="" class="banner-img img-fluid">
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Stats Section -->
-    <section class="stats text-center py-5 bg-primary text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h2>45+</h2>
-                    <p>Teachers</p>
-                </div>
-                <div class="col-md-3">
-                    <h2>1500+</h2>
-                    <p>Students</p>
-                </div>
-                <div class="col-md-3">
-                    <h2>40+</h2>
-                    <p>Class rooms</p>
-                </div>
-                <div class="col-md-3">
-                    <h2>5+</h2>
-                    <p>Labs</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Benefits Section -->
-    <section class="benefits py-5" id="services">
-        <div class="container">
-            <h2 class="text-center">Benefits of online tutoring services with us</h2>
-            <div class="row text-center mt-5 g-2 g-lg-3">
-                <div class=" col-lg-3 col-md-4 col-sm-6">
-                    <div class="card">
-                        <div class="badge">Development</div>
-                        <div class="bg-white card-content">
-                            <div class="d-flex items-center justify-center gap-3 ">
-                                <div>
-                                    <i class="ri-user-line"></i> <span>15 Students</span>
+        <section class="about-section py-5" id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center"
+                        data-aos="fade-up-right">
 
-                                </div>
-                                <div>
-                                    <i class="ri-article-line"></i> <span>12 lessons</span>
-
-                                </div>
-                            </div>
-                            <h6 class="mt-2">Frontend Web Development</h6>
-
-                            <div class="course-des">
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <span>(95) review</span>
-                            </div>
-                            <hr>
-                            <div class="course-price-box d-flex gap-3">
-                                <div class="price-container">
-                                    <span class="original-price">$45.00</span>
-                                    <span class="discounted-price">$25.00</span>
-                                </div>
-
-
-                                <button type="button" class="btn btn-warning">Enroll Now</button>
-                            </div>
-                        </div>
-
+                        <img src="./assets/imges/about-as.jpg" alt="" class="img-fluid  mb-3">
                     </div>
-                </div>
-
-                <div class=" col-lg-3 col-md-4 col-sm-6">
-                    <div class="card card2">
-                        <div class="badge">Be.Tech</div>
-                        <div class="bg-white card-content">
-                            <div class="d-flex items-center justify-center gap-3 ">
-                                <div>
-                                    <i class="ri-user-line"></i> <span>15 Students</span>
-
-                                </div>
-                                <div>
-                                    <i class="ri-article-line"></i> <span>12 lessons</span>
-
-                                </div>
+                    <div class="col-md-6" data-aos="fade-up-left">
+                        <div class="content">
+                            <div class="badge bg-primary text-light mb-3">About Us</div>
+                            <h2 class="mb-4">Oriented Learning <span class="text-warning">Environment</span></h2>
+                            <p class="mb-4">Education has come a long way from its traditional roots, and it will
+                                continue
+                                to evolve.</p>
+                            <p>Since 2007 we have been a visionary and a reliable software engineering partner for
+                                world-class brands. We are a boutique digital transformation consultancy and software
+                                development company that provides cutting edge engineering solutions.</p>
+                            <div class="mt-4">
+                                <a href="#" class="btn btn-primary me-3">Learn More</a>
+                                <a href="#" class="btn btn-outline-secondary">How It Works</a>
                             </div>
-                            <h6 class="mt-2 text-left">Bachelor of Technology</h6>
-
-                            <div class="course-des">
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <span>(95) review</span>
-                            </div>
-                            <hr>
-                            <div class="course-price-box d-flex gap-3">
-                                <div class="price-container">
-                                    <span class="original-price">$45.00</span>
-                                    <span class="discounted-price">$25.00</span>
-                                </div>
-
-
-                                <button type="button" class="btn btn-warning">Enroll Now</button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class=" col-lg-3 col-md-4 col-sm-6">
-                    <div class="card card3">
-                        <div class="badge">Ai</div>
-                        <div class="bg-white card-content">
-                            <div class="d-flex items-center justify-center gap-3 ">
-                                <div>
-                                    <i class="ri-user-line"></i> <span>15 Students</span>
-
-                                </div>
-                                <div>
-                                    <i class="ri-article-line"></i> <span>12 lessons</span>
-
-                                </div>
-                            </div>
-                            <h6 class="mt-2">Artificial Intelligence</h6>
-
-                            <div class="course-des">
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <span>(95) review</span>
-                            </div>
-                            <hr>
-                            <div class="course-price-box d-flex gap-3">
-                                <div class="price-container">
-                                    <span class="original-price">$45.00</span>
-                                    <span class="discounted-price">$25.00</span>
-                                </div>
-
-
-                                <button type="button" class="btn btn-warning">Enroll Now</button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class=" col-lg-3 col-md-4 col-sm-6">
-                    <div class="card card4">
-                        <div class="badge">Computer Science</div>
-                        <div class="bg-white card-content">
-                            <div class="d-flex items-center justify-center gap-3 ">
-                                <div>
-                                    <i class="ri-user-line"></i> <span>15 Students</span>
-
-                                </div>
-                                <div>
-                                    <i class="ri-article-line"></i> <span>12 lessons</span>
-
-                                </div>
-                            </div>
-                            <h6 class="mt-2">Computer Science</h6>
-
-                            <div class="course-des">
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <span>(95) review</span>
-                            </div>
-                            <hr>
-                            <div class="course-price-box d-flex gap-3">
-                                <div class="price-container">
-                                    <span class="original-price">$45.00</span>
-                                    <span class="discounted-price">$25.00</span>
-                                </div>
-
-
-                                <button type="button" class="btn btn-warning">Enroll Now</button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class=" col-lg-3 col-md-4 col-sm-6">
-                    <div class="card">
-                        <div class="badge">Development</div>
-                        <div class="bg-white card-content">
-                            <div class="d-flex items-center justify-center gap-3 ">
-                                <div>
-                                    <i class="ri-user-line"></i> <span>15 Students</span>
-
-                                </div>
-                                <div>
-                                    <i class="ri-article-line"></i> <span>12 lessons</span>
-
-                                </div>
-                            </div>
-                            <h6 class="mt-2">Backend Web Development</h6>
-
-                            <div class="course-des">
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <span>(95) review</span>
-                            </div>
-                            <hr>
-                            <div class="course-price-box d-flex gap-3">
-                                <div class="price-container">
-                                    <span class="original-price">$45.00</span>
-                                    <span class="discounted-price">$25.00</span>
-                                </div>
-
-
-                                <button type="button" class="btn btn-warning">Enroll Now</button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="card">
-                        <div class="badge">B.com</div>
-                        <div class="bg-white card-content">
-                            <div class="d-flex items-center justify-center gap-3 ">
-                                <div>
-                                    <i class="ri-user-line"></i> <span>15 Students</span>
-
-                                </div>
-                                <div>
-                                    <i class="ri-article-line"></i> <span>12 lessons</span>
-
-                                </div>
-                            </div>
-                            <h6 class="mt-2">Bachelor of Commerce</h6>
-
-                            <div class="course-des">
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <span>(95) review</span>
-                            </div>
-                            <hr>
-                            <div class="course-price-box d-flex gap-3">
-                                <div class="price-container">
-                                    <span class="original-price">$45.00</span>
-                                    <span class="discounted-price">$25.00</span>
-                                </div>
-
-
-                                <button type="button" class="btn btn-warning">Enroll Now</button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="card">
-                        <div class="badge">machine learningt</div>
-                        <div class="bg-white card-content">
-                            <div class="d-flex items-center justify-center gap-3 ">
-                                <div>
-                                    <i class="ri-user-line"></i> <span>15 Students</span>
-
-                                </div>
-                                <div>
-                                    <i class="ri-article-line"></i> <span>12 lessons</span>
-
-                                </div>
-                            </div>
-                            <h6 class="mt-2">machine learning</h6>
-
-                            <div class="course-des">
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <span>(95) review</span>
-                            </div>
-                            <hr>
-                            <div class="course-price-box d-flex gap-3">
-                                <div class="price-container">
-                                    <span class="original-price">$45.00</span>
-                                    <span class="discounted-price">$25.00</span>
-                                </div>
-
-
-                                <button type="button" class="btn btn-warning">Enroll Now</button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="card">
-                        <div class="badge">Dsa</div>
-                        <div class="bg-white card-content">
-                            <div class="d-flex items-center justify-center gap-3 ">
-                                <div>
-                                    <i class="ri-user-line"></i> <span>15 Students</span>
-
-                                </div>
-                                <div>
-                                    <i class="ri-article-line"></i> <span>12 lessons</span>
-
-                                </div>
-                            </div>
-                            <h6 class="mt-2">Data Structures and Algorithms</h6>
-
-                            <div class="course-des">
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
-                                <span>(95) review</span>
-                            </div>
-                            <hr>
-                            <div class="course-price-box d-flex gap-3">
-                                <div class="price-container">
-                                    <span class="original-price">$45.00</span>
-                                    <span class="discounted-price">$25.00</span>
-                                </div>
-
-
-                                <button type="button" class="btn btn-warning">Enroll Now</button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Tutor Section -->
-    <section class="tutor py-5 ">
-        <div class="container">
-            <h2 class="text-center">Talented and Qualified Tutor Serve You For Help</h2>
-            <div class="text-center">
-                <img src="img/tutor.png" alt="Tutor" class="img-fluid mb-3">
-                <p>Description of the tutor...</p>
-                <a href="#" class="btn btn-warning">Get started</a>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Testimonials Section -->
-    <section class="testimonials py-5 ">
-        <div class="container">
-            <h2 class="text-center">What Our Students Say About Us</h2>
-            <div class=" text-center  review-silder">
-                <div class="p-3">
-                    <div class="stu-silder">
-                        <img src="./assets/imges/stu1.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
-                        <h5>Student Name</h5>
-                        <p>Occupation</p>
-                        <blockquote class="blockquote">
-                            <p>"Testimonial goes here..."</p>
-                        </blockquote>
-                    </div>
-                </div>
-                <div class="p-3">
-                    <div class="stu-silder">
-                        <img src="./assets/imges/stu2.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
-                        <h5>Student Name</h5>
-                        <p>Occupation</p>
-                        <blockquote class="blockquote">
-                            <p>"Testimonial goes here..."</p>
-                        </blockquote>
-                    </div>
-                </div>
-                <div class="p-3">
-                    <div class="stu-silder">
-                        <img src="./assets/imges/stu3.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
-                        <h5>Student Name</h5>
-                        <p>Occupation</p>
-                        <blockquote class="blockquote">
-                            <p>"Testimonial goes here..."</p>
-                        </blockquote>
-                    </div>
-                </div>
-                <div class="p-3">
-                    <div class="stu-silder">
-                        <img src="./assets/imges/stu4.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
-                        <h5>Student Name</h5>
-                        <p>Occupation</p>
-                        <blockquote class="blockquote">
-                            <p>"Testimonial goes here..."</p>
-                        </blockquote>
-                    </div>
-                </div>
-                <div class="p-3">
-                    <div class="stu-silder">
-                        <img src="./assets/imges/stu5.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
-                        <h5>Student Name</h5>
-                        <p>Occupation</p>
-                        <blockquote class="blockquote">
-                            <p>"Testimonial goes here..."</p>
-                        </blockquote>
-                    </div>
-                </div>
-                <div class="p-3">
-                    <div class="stu-silder">
-                        <img src="./assets/imges/stu1.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
-                        <h5>Student Name</h5>
-                        <p>Occupation</p>
-                        <blockquote class="blockquote">
-                            <p>"Testimonial goes here..."</p>
-                        </blockquote>
-                    </div>
-                </div>
-                <div class="p-3">
-                    <div class="stu-silder">
-                        <img src="./assets/imges/stu1.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
-                        <h5>Student Name</h5>
-                        <p>Occupation</p>
-                        <blockquote class="blockquote">
-                            <p>"Testimonial goes here..."</p>
-                        </blockquote>
-                    </div>
-                </div>
-                <div class="p-3">
-                    <div class="stu-silder">
-                        <img src="./assets/imges/stu1.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
-                        <h5>Student Name</h5>
-                        <p>Occupation</p>
-                        <blockquote class="blockquote">
-                            <p>"Testimonial goes here..."</p>
-                        </blockquote>
-                    </div>
-                </div>
-
-
-                <!-- Add more student testimonials as needed -->
-            </div>
-        </div>
-    </section>
-
-    <!-- conact section -->
-
-
-    <section class="conact-as">
-
-        <div class="container mt-5">
-            <h2 class="text-center p-5">Contact Us</h2>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ducimus nobis sapiente laborum harum
-                        voluptas consequatur voluptatem beatae illo deleniti doloribus, dolores ut, quibusdam quaerat
-                        cupiditate? Architecto maxime sed veniam nihil expedita impedit corrupti.</p>
-
-
-
-                    <button type="button" class="btn btn-outline-warning">Get started</button>
-                </div>
-                <div class="conact-page col-md-6" data-aos="zoom-in">
-                    <form>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="phone" class="form-label">Phone Number</label>
-                            <input type="tel" class="form-control" id="phone" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="3" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- Footer -->
-    <footer class="footer bg-primary text-white py-5 p-5 mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5>About Jr</h5>
-                    <p>Description about the school...</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Quick Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white"> Find course </a></li>
-                        <li><a href="#" class="text-white"> Cyber Security </a></li>
-                        <li><a href="#" class="text-white"> Data Structures and Algorithms</a></li>
-                        <li><a href="#" class="text-white"> machine learning</a></li>
-                        <li><a href="#" class="text-white">Python Devloper</a></li>
-                        <li><a href="#" class="text-white">Java Devloper</a></li>
-                        <li><a href="#" class="text-white"> machine learning</a></li>
-
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5>Contact Us</h5>
-                    <p>Address: Gangarmpur , Dakshin Dinajpur , <br> Pin-733124</p>
-                    <p>Email: info@jrc.com</p>
-                    <p>Phone: +91 xxxx xxxxx</p>
-
-                    <div class="social-icons d-flex items-center gap-4">
-                        <div class="icon">
-                            <i class="ri-facebook-circle-fill"></i>
-                        </div>
-                        <div class="icon">
-                            <i class="ri-linkedin-box-line"></i>
-                        </div>
-                        <div class="icon">
-                            <i class="ri-twitter-x-line"></i>
-                        </div>
-                        <div class="icon">
-                            <i class="ri-instagram-fill"></i>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="text-center mt-3">
-                <p>&copy; 2023, JR COLLEGE. All Rights Reserved</p>
+        </section>
+        <!-- Stats Section -->
+        <section class="stats text-center py-5 bg-primary text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h2>45+</h2>
+                        <p>Teachers</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2>1500+</h2>
+                        <p>Students</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2>40+</h2>
+                        <p>Class rooms</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2>5+</h2>
+                        <p>Labs</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="benefits py-5" id="services">
+            <div class="container">
+                <h2 class="text-center">Benefits of online tutoring services with us</h2>
+                <div class="row text-center mt-5 g-2 g-lg-3">
+                    <div class=" col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="badge">Development</div>
+                            <div class="bg-white card-content">
+                                <div class="d-flex items-center justify-center gap-3 ">
+                                    <div>
+                                        <i class="ri-user-line"></i> <span>15 Students</span>
+
+                                    </div>
+                                    <div>
+                                        <i class="ri-article-line"></i> <span>12 lessons</span>
+
+                                    </div>
+                                </div>
+                                <h6 class="mt-2">Frontend Web Development</h6>
+
+                                <div class="course-des">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <span>(95) review</span>
+                                </div>
+                                <hr>
+                                <div class="course-price-box d-flex gap-3">
+                                    <div class="price-container">
+                                        <span class="original-price">$45.00</span>
+                                        <span class="discounted-price">$25.00</span>
+                                    </div>
+
+
+                                    <button type="button" class="btn btn-warning">Enroll Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-3 col-md-4 col-sm-6">
+                        <div class="card card2">
+                            <div class="badge">Be.Tech</div>
+                            <div class="bg-white card-content">
+                                <div class="d-flex items-center justify-center gap-3 ">
+                                    <div>
+                                        <i class="ri-user-line"></i> <span>15 Students</span>
+
+                                    </div>
+                                    <div>
+                                        <i class="ri-article-line"></i> <span>12 lessons</span>
+
+                                    </div>
+                                </div>
+                                <h6 class="mt-2 text-left">Bachelor of Technology</h6>
+
+                                <div class="course-des">
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <span>(95) review</span>
+                                </div>
+                                <hr>
+                                <div class="course-price-box d-flex gap-3">
+                                    <div class="price-container">
+                                        <span class="original-price">$45.00</span>
+                                        <span class="discounted-price">$25.00</span>
+                                    </div>
+
+
+                                    <button type="button" class="btn btn-warning">Enroll Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-3 col-md-4 col-sm-6">
+                        <div class="card card3">
+                            <div class="badge">Ai</div>
+                            <div class="bg-white card-content">
+                                <div class="d-flex items-center justify-center gap-3 ">
+                                    <div>
+                                        <i class="ri-user-line"></i> <span>15 Students</span>
+
+                                    </div>
+                                    <div>
+                                        <i class="ri-article-line"></i> <span>12 lessons</span>
+
+                                    </div>
+                                </div>
+                                <h6 class="mt-2">Artificial Intelligence</h6>
+
+                                <div class="course-des">
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <span>(95) review</span>
+                                </div>
+                                <hr>
+                                <div class="course-price-box d-flex gap-3">
+                                    <div class="price-container">
+                                        <span class="original-price">$45.00</span>
+                                        <span class="discounted-price">$25.00</span>
+                                    </div>
+
+
+                                    <button type="button" class="btn btn-warning">Enroll Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-3 col-md-4 col-sm-6">
+                        <div class="card card4">
+                            <div class="badge">Computer Science</div>
+                            <div class="bg-white card-content">
+                                <div class="d-flex items-center justify-center gap-3 ">
+                                    <div>
+                                        <i class="ri-user-line"></i> <span>15 Students</span>
+
+                                    </div>
+                                    <div>
+                                        <i class="ri-article-line"></i> <span>12 lessons</span>
+
+                                    </div>
+                                </div>
+                                <h6 class="mt-2">Computer Science</h6>
+
+                                <div class="course-des">
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <span>(95) review</span>
+                                </div>
+                                <hr>
+                                <div class="course-price-box d-flex gap-3">
+                                    <div class="price-container">
+                                        <span class="original-price">$45.00</span>
+                                        <span class="discounted-price">$25.00</span>
+                                    </div>
+
+
+                                    <button type="button" class="btn btn-warning">Enroll Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="badge">Development</div>
+                            <div class="bg-white card-content">
+                                <div class="d-flex items-center justify-center gap-3 ">
+                                    <div>
+                                        <i class="ri-user-line"></i> <span>15 Students</span>
+
+                                    </div>
+                                    <div>
+                                        <i class="ri-article-line"></i> <span>12 lessons</span>
+
+                                    </div>
+                                </div>
+                                <h6 class="mt-2">Backend Web Development</h6>
+
+                                <div class="course-des">
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <span>(95) review</span>
+                                </div>
+                                <hr>
+                                <div class="course-price-box d-flex gap-3">
+                                    <div class="price-container">
+                                        <span class="original-price">$45.00</span>
+                                        <span class="discounted-price">$25.00</span>
+                                    </div>
+
+
+                                    <button type="button" class="btn btn-warning">Enroll Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="badge">B.com</div>
+                            <div class="bg-white card-content">
+                                <div class="d-flex items-center justify-center gap-3 ">
+                                    <div>
+                                        <i class="ri-user-line"></i> <span>15 Students</span>
+
+                                    </div>
+                                    <div>
+                                        <i class="ri-article-line"></i> <span>12 lessons</span>
+
+                                    </div>
+                                </div>
+                                <h6 class="mt-2">Bachelor of Commerce</h6>
+
+                                <div class="course-des">
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <span>(95) review</span>
+                                </div>
+                                <hr>
+                                <div class="course-price-box d-flex gap-3">
+                                    <div class="price-container">
+                                        <span class="original-price">$45.00</span>
+                                        <span class="discounted-price">$25.00</span>
+                                    </div>
+
+
+                                    <button type="button" class="btn btn-warning">Enroll Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="badge">machine learningt</div>
+                            <div class="bg-white card-content">
+                                <div class="d-flex items-center justify-center gap-3 ">
+                                    <div>
+                                        <i class="ri-user-line"></i> <span>15 Students</span>
+
+                                    </div>
+                                    <div>
+                                        <i class="ri-article-line"></i> <span>12 lessons</span>
+
+                                    </div>
+                                </div>
+                                <h6 class="mt-2">machine learning</h6>
+
+                                <div class="course-des">
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <span>(95) review</span>
+                                </div>
+                                <hr>
+                                <div class="course-price-box d-flex gap-3">
+                                    <div class="price-container">
+                                        <span class="original-price">$45.00</span>
+                                        <span class="discounted-price">$25.00</span>
+                                    </div>
+
+
+                                    <button type="button" class="btn btn-warning">Enroll Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="badge">Dsa</div>
+                            <div class="bg-white card-content">
+                                <div class="d-flex items-center justify-center gap-3 ">
+                                    <div>
+                                        <i class="ri-user-line"></i> <span>15 Students</span>
+
+                                    </div>
+                                    <div>
+                                        <i class="ri-article-line"></i> <span>12 lessons</span>
+
+                                    </div>
+                                </div>
+                                <h6 class="mt-2">Data Structures and Algorithms</h6>
+
+                                <div class="course-des">
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <i class="ri-star-line"></i>
+                                    <span>(95) review</span>
+                                </div>
+                                <hr>
+                                <div class="course-price-box d-flex gap-3">
+                                    <div class="price-container">
+                                        <span class="original-price">$45.00</span>
+                                        <span class="discounted-price">$25.00</span>
+                                    </div>
+
+
+                                    <button type="button" class="btn btn-warning">Enroll Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Tutor Section -->
+        <section class="tutor py-5 ">
+            <div class="container">
+                <h2 class="text-center">Talented and Qualified Tutor Serve You For Help</h2>
+                <div class="text-center">
+                    <img src="img/tutor.png" alt="Tutor" class="img-fluid mb-3">
+                    <p>Description of the tutor...</p>
+                    <a href="#" class="btn btn-warning">Get started</a>
+                </div>
+            </div>
+        </section>
+        <section class="instrctors-section p-5">
+            <div class="instrctors-tittle">
+                <h2 class="text-center position-relative fs-1"> Meet Our <span>Instrctors</span></h2>
+                <svg class="" width="200" height="30" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="orange" stroke-width="4" fill="none" stroke-linecap="round">
+                        <path d="M10 10 Q 100 20, 190 10" />
+                        <path d="M10 20 Q 100 30, 190 20" />
+                    </g>
+                </svg>
+            </div>
+
+
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="custom-card">
+
+                            <div class="name-box">
+                                <h5 class="mt-3">Charlotte Wilson</h5>
+                                <p>Project Manager</p>
+                            </div>
+
+                            <div class="social-icons">
+                                <a href="#"> <i class="ri-facebook-circle-fill"></i>
+                                </a>
+                                <a href="#"> <i class="ri-linkedin-box-line"></i>
+                                </a>
+                                <a href="#"> <i class="ri-twitter-x-line"></i>
+                                </a>
+                                <a href="#"> <i class="ri-instagram-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="custom-card">
+
+                            <div class="name-box">
+                                <h5 class="mt-3">Charlotte Wilson</h5>
+                                <p>Project Manager</p>
+                            </div>
+
+                            <div class="social-icons">
+                                <a href="#"> <i class="ri-facebook-circle-fill"></i>
+                                </a>
+                                <a href="#"> <i class="ri-linkedin-box-line"></i>
+                                </a>
+                                <a href="#"> <i class="ri-twitter-x-line"></i>
+                                </a>
+                                <a href="#"> <i class="ri-instagram-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="custom-card">
+
+                            <div class="name-box">
+                                <h5 class="mt-3">Charlotte Wilson</h5>
+                                <p>Project Manager</p>
+                            </div>
+
+                            <div class="social-icons">
+                                <a href="#"> <i class="ri-facebook-circle-fill"></i>
+                                </a>
+                                <a href="#"> <i class="ri-linkedin-box-line"></i>
+                                </a>
+                                <a href="#"> <i class="ri-twitter-x-line"></i>
+                                </a>
+                                <a href="#"> <i class="ri-instagram-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials py-5 ">
+            <div class="container">
+                <div class="d-flex items-center justify-center">
+                    <h2 class="text-center fs-1">What Our Students Say
+
+                    </h2>
+                    <h2 class="fs-1"> <span>About Us</span> <span> <svg class="" width="200" height="30"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g stroke="orange" stroke-width="4" fill="none" stroke-linecap="round">
+                                    <path d="M10 10 Q 100 20, 190 10" />
+                                    <path d="M10 20 Q 100 30, 190 20" />
+                                </g>
+                            </svg></span> </h2>
+                </div>
+
+
+                <div class=" text-center  review-silder">
+                    <div class="p-3">
+                        <div class="stu-silder">
+                            <img src="./assets/imges/stu1.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
+                            <h5>Student Name</h5>
+                            <p>Occupation</p>
+                            <blockquote class="blockquote">
+                                <p>"Testimonial goes here..."</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="stu-silder">
+                            <img src="./assets/imges/stu2.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
+                            <h5>Student Name</h5>
+                            <p>Occupation</p>
+                            <blockquote class="blockquote">
+                                <p>"Testimonial goes here..."</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="stu-silder">
+                            <img src="./assets/imges/stu3.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
+                            <h5>Student Name</h5>
+                            <p>Occupation</p>
+                            <blockquote class="blockquote">
+                                <p>"Testimonial goes here..."</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="stu-silder">
+                            <img src="./assets/imges/stu4.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
+                            <h5>Student Name</h5>
+                            <p>Occupation</p>
+                            <blockquote class="blockquote">
+                                <p>"Testimonial goes here..."</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="stu-silder">
+                            <img src="./assets/imges/stu5.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
+                            <h5>Student Name</h5>
+                            <p>Occupation</p>
+                            <blockquote class="blockquote">
+                                <p>"Testimonial goes here..."</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="stu-silder">
+                            <img src="./assets/imges/stu1.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
+                            <h5>Student Name</h5>
+                            <p>Occupation</p>
+                            <blockquote class="blockquote">
+                                <p>"Testimonial goes here..."</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="stu-silder">
+                            <img src="./assets/imges/stu1.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
+                            <h5>Student Name</h5>
+                            <p>Occupation</p>
+                            <blockquote class="blockquote">
+                                <p>"Testimonial goes here..."</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="stu-silder">
+                            <img src="./assets/imges/stu1.jpg" alt="Student" class="img-fluid rounded-circle mb-3">
+                            <h5>Student Name</h5>
+                            <p>Occupation</p>
+                            <blockquote class="blockquote">
+                                <p>"Testimonial goes here..."</p>
+                            </blockquote>
+                        </div>
+                    </div>
+
+
+                    <!-- Add more student testimonials as needed -->
+                </div>
+            </div>
+        </section>
+
+
+        <!-- faq section -->
+
+
+        <section class="faq-section">
+            <div class="container">
+
+
+                <div class="faq-section">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    <p>What Is The Important Of Education</p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample" style="">
+                                <div class="accordion-body">
+                                    Education opens doors to better career opportunities, as it provides individuals
+                                    with the knowledge, skills, and qualifications needed to succeed in their chosen
+                                    fields.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    <p>What Is The Important Of Technology</p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample" style="">
+                                <div class="accordion-body">
+                                    Technology has made the world a smaller place, enabling global connectivity and
+                                    communication. We can now connect with people from all over the world in real-time,
+                                    share information, and collaborate on projects.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    <p class="tex-size"> What Is Co Working</p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample" style="">
+                                <div class="accordion-body">
+                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
+                                    non
+                                    curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
+                                    purus
+                                    non.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- conact section -->
+        <section class="conact-as">
+
+            <div class="container mt-5">
+                <h2 class="text-center p-5">Contact Us</h2>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ducimus nobis sapiente laborum
+                            harum
+                            voluptas consequatur voluptatem beatae illo deleniti doloribus, dolores ut, quibusdam
+                            quaerat
+                            cupiditate? Architecto maxime sed veniam nihil expedita impedit corrupti.</p>
+
+
+
+                        <button type="button" class="btn btn-outline-warning">Get started</button>
+                    </div>
+                    <div class="conact-page col-md-6" data-aos="zoom-in">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer bg-primary text-white py-5 p-5 mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>About Jr</h5>
+                        <p>Description about the school...</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">About as </a></li>
+                            <li><a href="#" class="text-white"> Our All Courses</a></li>
+                            <li><a href="#" class="text-white">Our Gallery</a></li>
+                            <li><a href="#" class="text-white"> conact as</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Categories</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white"> Find course </a></li>
+                            <li><a href="#" class="text-white"> Cyber Security </a></li>
+                            <li><a href="#" class="text-white"> Data Structures and Algorithms</a></li>
+                            <li><a href="#" class="text-white"> machine learning</a></li>
+                            <li><a href="#" class="text-white">Python Devloper</a></li>
+                            <li><a href="#" class="text-white">Java Devloper</a></li>
+                            <li><a href="#" class="text-white"> machine learning</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Contact Us</h5>
+                        <p>Address: Gangarmpur , Dakshin Dinajpur , <br> Pin-733124</p>
+                        <p>Email: info@jrc.com</p>
+                        <p>Phone: +91 xxxx xxxxx</p>
+
+                        <div class="social-icons d-flex items-center gap-4">
+                            <div class="icon">
+                                <i class="ri-facebook-circle-fill"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="ri-linkedin-box-line"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="ri-twitter-x-line"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="ri-instagram-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <p>&copy; 2023, JR COLLEGE. All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

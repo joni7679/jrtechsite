@@ -6,22 +6,36 @@
     text-decoration: none;
 }
 
-html {
-    scroll-behavior: smooth;
+:root {
+    --my-warningcolor: #FFA03A;
 }
 
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
 
 body {
     overflow-x: hidden;
+    width: 100% !important;
 }
 
 
-a {
-    text-decoration: none !important;
+.main {
+    width: 100%;
+    overflow: hidden;
 }
 
 .logo {
     width: 50px;
+}
+
+header {
+    width: 100% !important;
 }
 
 .navbar-toggler:focus,
@@ -196,11 +210,117 @@ h2 {
     background-color: #f8f9fa;
 }
 
+.instrctors-section .instrctors-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.instrctors-section h2 span {
+    color: #FFA03A;
+}
+
+.instrctors-tittle {}
+
+.custom-card {
+    position: relative;
+    /* overflow: hidden; */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    /* transition: transform 0.3s; */
+
+}
+
+.custom-card:nth-child(1) {
+    background: url('../imges/teacher.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.custom-card:nth-child(2) {
+    background-image: url('../imges/teacher2.jpg') !important;
+    background-size: cover;
+    background-position: center;
+}
+
+.name-box {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* left: 25%; */
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.custom-card .social-icons {
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.custom-card:hover .social-icons {
+    transform: translate(-50%, -50%) scale(1);
+
+}
+
+.social-icons a:hover {
+    background-color: #007bff;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.name-box:hover {
+    background-color: white;
+    color: #000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.social-icons a {
+    color: #4e79e7;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    border-radius: 50%;
+    margin: 0 5px;
+    font-size: 18px;
+    margin-top: 5px;
+
+}
+
+
+
+
+
 
 /* Testimonials Section */
 .testimonials img {
     width: 100px;
     height: 100px;
+}
+
+
+.testimonials h2 span {
+    color: var(--my-warningcolor);
+}
+
+.testimonials h2 span {
+    display: block;
+
 }
 
 .stu-silder {
