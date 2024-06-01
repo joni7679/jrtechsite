@@ -210,14 +210,19 @@ h2 {
     background-color: #f8f9fa;
 }
 
-.instrctors-section .instrctors-tittle {
+.instrctors-section .instrctors-tittle,
+.testimoial-tittle,
+.faq-tittle {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.instrctors-section h2 span {
+
+
+.instrctors-section h2 span,
+.faq-tittle span {
     color: #FFA03A;
 }
 
@@ -229,7 +234,7 @@ h2 {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
-    width: 300px;
+    width: 250px;
     height: 300px;
     text-align: center;
     /* transition: transform 0.3s; */
@@ -241,8 +246,15 @@ h2 {
     background-size: cover;
     background-position: center;
 }
-.custom-card:nth-child(2) {
+
+.custom-card2 {
     background-image: url('../imges/teacher2.jpg') !important;
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-card3 {
+    background-image: url('../imges/teacher3.jpg') !important;
     background-size: cover;
     background-position: center;
 }
@@ -331,6 +343,12 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.conact-page {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 /* Footer */
