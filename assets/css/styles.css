@@ -19,10 +19,6 @@ a {
     text-decoration: none;
 }
 
-body {
-    overflow-x: hidden;
-    width: 100% !important;
-}
 
 
 .main {
@@ -234,7 +230,7 @@ h2 {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
-    width: 250px;
+    max-width: 250px;
     height: 300px;
     text-align: center;
     /* transition: transform 0.3s; */
@@ -314,17 +310,11 @@ h2 {
 
 }
 
-
-
-
-
-
 /* Testimonials Section */
 .testimonials img {
     width: 100px;
     height: 100px;
 }
-
 
 .testimonials h2 span {
     color: var(--my-warningcolor);
@@ -351,7 +341,33 @@ h2 {
     border-radius: 8px;
 }
 
+
 /* Footer */
 .footer {
     background-color: #007bff;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+    background-color: #007bff;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon:hover {
+    background-color: #2040e4;
+}
+
+.chat {
+    position: fixed;
+    right: 5%;
+    z-index: 99;
+    bottom: 20px;
+    cursor: pointer;
+   
+    font-size: 30px;
 }
